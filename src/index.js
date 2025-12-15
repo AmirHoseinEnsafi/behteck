@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require("mongoose");
 
 const routerReceiveData = require('./receiveNewDetail/module');
+const routerQueryData = require('./getQuery/module');
 
 const app = express();
 
@@ -17,5 +18,6 @@ app.get("/", (req, res) => {
 });
 
 app.use(routerReceiveData);
+app.use(routerQueryData);
 
 app.listen(3000, () => console.log("Listening on port 3000"));

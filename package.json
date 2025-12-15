@@ -1,0 +1,23 @@
+{
+  "name": "behteck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dayjs": "^1.11.19",
+    "express": "^5.2.1",
+    "jalaali-js": "^1.2.8",
+    "joi": "^18.0.2",
+    "mongoose": "^9.0.1",
+    "multer": "^2.0.2",
+    "node-xlsx": "^0.24.0",
+    "winston": "^3.19.0"
+  }
+}
